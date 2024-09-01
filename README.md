@@ -1,7 +1,7 @@
 # vince-archetype-web
 vince's java base archetype, include jwt token, cola and some interceptor...
 
-how to use
+# how to use
 mvn archetype:generate \                                                                     01:10:52
   -DarchetypeGroupId=com.vince \
   -DarchetypeArtifactId=vince-archetype-web \
