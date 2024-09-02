@@ -5,7 +5,7 @@ package ${package}.config.interceptor;
 
 import com.alibaba.cola.exception.BizException;
 import ${package}.config.TokenUtil;
-import ${package}.dto.data.ErrorCode;
+import ${package}.domain.ErrorCode;
 import com.google.common.base.Strings;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

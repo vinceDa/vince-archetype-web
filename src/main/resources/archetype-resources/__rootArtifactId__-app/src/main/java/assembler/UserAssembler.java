@@ -1,17 +1,15 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.convertor;
+package ${package}.assembler;
 
 import ${package}.domain.user.User;
-import ${package}.gatewayimpl.database.dataobject.UserDO;
+import ${package}.dto.cmd.UserRegisterCmd;
 import org.mapstruct.Mapper;
 
-/**
- * @author vince
- */
 @Mapper(componentModel = "spring")
-public interface UserConvertor {
+public interface UserAssembler {
 
-    UserDO toDO(User user);
+    User toEntity(UserRegisterCmd cmd);
+
 }

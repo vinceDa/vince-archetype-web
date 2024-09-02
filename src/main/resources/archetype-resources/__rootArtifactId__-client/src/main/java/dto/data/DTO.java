@@ -8,7 +8,7 @@ import lombok.Data;
 
 
 @Data
-public class CustomerDTO{
+public class DTO {
     private String customerId;
     private String memberId;
     private String customerName;

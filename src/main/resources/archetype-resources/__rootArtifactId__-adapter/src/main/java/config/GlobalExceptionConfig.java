@@ -6,7 +6,7 @@ package ${package}.config;
 import com.alibaba.cola.dto.Response;
 import com.alibaba.cola.exception.BizException;
 import com.alibaba.cola.exception.SysException;
-import ${package}.dto.data.ErrorCode;
+import ${package}.domain.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

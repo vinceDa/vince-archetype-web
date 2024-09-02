@@ -1,6 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
+
 package ${package}.dto.event;
 
 /**
@@ -8,16 +9,6 @@ package ${package}.dto.event;
  *
  * @author vince 2024-08-28 23:08
  */
-public class CustomerCreatedEvent{
-
-    private String customerId;
-
-    public String getCustomerId() {
-        return customerId;
-    }
-
-    public void setCustomerId(String customerId) {
-        this.customerId = customerId;
-    }
+public class CreatedEvent {
 
 }

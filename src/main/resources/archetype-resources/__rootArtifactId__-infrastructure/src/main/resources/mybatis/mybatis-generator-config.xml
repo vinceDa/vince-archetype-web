@@ -45,10 +45,10 @@
         <plugin type="com.itfsw.mybatis.generator.plugins.ModelColumnPlugin"/>
 
         <!-- 自定义注释插件 -->
-<!--        <plugin type="com.itfsw.mybatis.generator.plugins.CommentPlugin">-->
-<!--            &lt;!&ndash; 自定义模板路径 &ndash;&gt;-->
-<!--            <property name="template" value="src/main/resources/mybatis/mybatis-generator-comment.ftl" />-->
-<!--        </plugin>-->
+        <plugin type="com.itfsw.mybatis.generator.plugins.CommentPlugin">
+            <!-- 自定义模板路径 -->
+            <property name="template" value="src/main/resources/mybatis/mybatis-generator-comment.ftl" />
+        </plugin>
 
         <!--  配置 JDBC 连接信息，包括驱动类、数据库 URL、用户名和密码。 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"

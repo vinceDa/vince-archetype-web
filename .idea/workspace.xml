@@ -4,73 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca4ef9-e24b-4b00-92a6-fb234a5c9fa9" name="Changes" comment="feat - move some classes">
-      <change afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/gateway/CustomerGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/gatewayimpl/rpc/ColaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/gatewayimpl/rpc/dataobject/ColaDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/GlobalExceptionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/GlobalExceptionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/TokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/interceptor/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/interceptor/LogInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/config/interceptor/SidManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/config/interceptor/SidManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/mobile/MobileAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/mobile/MobileAdaptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/wap/WapAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/wap/WapAdaptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-adapter/src/main/java/com/aomuc/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-adapter/src/main/java/com/vince/web/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/main/java/com/aomuc/customer/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/main/java/com/vince/customer/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/main/java/com/aomuc/customer/executor/CustomerAddCmdExe.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/main/java/com/vince/customer/executor/CustomerAddCmdExe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/main/java/com/aomuc/customer/executor/query/CustomerListByNameQryExe.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/main/java/com/vince/customer/executor/query/CustomerListByNameQryExe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/main/java/com/aomuc/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/main/java/com/vince/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/test/java/com/aomuc/app/CustomerConvertorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/test/java/com/vince/app/CustomerConvertorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-app/src/test/java/com/aomuc/app/CustomerValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-app/src/test/java/com/vince/app/CustomerValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/api/CustomerServiceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/api/CustomerServiceI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/dto/CustomerAddCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/dto/CustomerAddCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/dto/CustomerListByNameQry.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/dto/CustomerListByNameQry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/dto/data/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/dto/data/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/dto/data/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/dto/data/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-client/src/main/java/com/aomuc/dto/event/CustomerCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-client/src/main/java/com/vince/dto/event/CustomerCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/base/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/base/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/CompanyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/CompanyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/CustomerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/SourceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/SourceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/domainservice/CreditChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/domainservice/CreditChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/gateway/CreditGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/customer/gateway/CreditGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/customer/gateway/CustomerGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/order/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/main/java/com/aomuc/domain/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/main/java/com/vince/domain/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-domain/src/test/java/com/aomuc/domain/CustomerEntityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-domain/src/test/java/com/vince/domain/CustomerEntityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/common/event/DomainEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/common/event/DomainEventPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/config/ColaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/config/ColaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/convertor/UserConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/convertor/UserConvertor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/gatewayimpl/ColaGatewayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/java/com/vince/gatewayimpl/ColaGatewayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/gatewayimpl/rpc/ColaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/java/com/aomuc/gatewayimpl/rpc/dataobject/ColaDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/resources/mybatis/mybatis-generator-comment.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/resources/mybatis/mybatis-generator-comment.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/resources/mybatis/mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/resources/mybatis/mybatis-generator-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/main/resources/mybatis/mybatis-generator-config_1_0.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/main/resources/mybatis/mybatis-generator-config_1_0.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/test/java/com/aomuc/repository/CustomerMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/test/java/com/vince/repository/CustomerMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aomuc-infrastructure/src/test/resources/sample.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vince-infrastructure/src/test/resources/sample.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/start/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/src/main/java/com/aomuc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/main/java/com/vince/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/src/test/java/com/aomuc/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/test/java/com/vince/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/test/resources/logback-test.xml" afterDir="false" />
+    <list default="true" id="baca4ef9-e24b-4b00-92a6-fb234a5c9fa9" name="Changes" comment="feat - move class ErrorCode to domain module&#10;feat -">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/assembler/UserAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/dto/cmd/UserRegisterCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/service/UserServiceI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/AddCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/ListByNameQry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/user/gateway/UserGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/UserGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/database/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/database/dataobject/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/database/example/UserDOExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-adapter/src/main/java/config/GlobalExceptionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-adapter/src/main/java/config/GlobalExceptionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-adapter/src/main/java/config/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-adapter/src/main/java/config/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-adapter/src/main/java/web/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/customer/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/customer/executor/CustomerAddCmdExe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/customer/executor/query/CustomerListByNameQryExe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java/order/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/test/java/app/CustomerConvertorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/test/java/app/CustomerValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/api/CustomerServiceI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/CustomerAddCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/CustomerListByNameQry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/data/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/data/DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/data/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/event/CustomerCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java/dto/event/CreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/CompanyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/Credit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/SourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/domainservice/CreditChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/gateway/CreditGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/customer/gateway/CustomerGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/convertor/UserConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/convertor/UserConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/ColaGatewayImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/database/ColaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl/database/dataobject/ColaDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/resources/mybatis/mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/resources/mybatis/mybatis-generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +68,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:vinceDa/aomuc.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:vinceDa/vince-archetype-web.git&quot;,
     &quot;accountId&quot;: &quot;9cea41f8-c26c-4064-bffc-2b1dc28a8129&quot;
   }
 }</component>
@@ -107,6 +95,7 @@
     "Maven.aomuc-infrastructure [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
     "Maven.aomuc-parent [clean,install,-Dskiptest].executor": "Run",
     "Maven.aomuc-parent [clean].executor": "Run",
+    "Maven.vince-archetype-web [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -117,7 +106,7 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vince/Documents/code/IdeaProjects/github/vince-archetype",
+    "last_opened_file_path": "/Users/vince/Documents/code/IdeaProjects/github/vince-archetype-web/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,13 +121,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl" />
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-domain/src/main/java/domain" />
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-app/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java" />
       <recent name="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__rootArtifactId__-infrastructure/src/main/java/gatewayimpl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-client" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn clean install -Dskiptest" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
@@ -211,6 +208,8 @@
       <workItem from="1725179005788" duration="2029000" />
       <workItem from="1725183553002" duration="2252000" />
       <workItem from="1725210940417" duration="29000" />
+      <workItem from="1725211051079" duration="1103000" />
+      <workItem from="1725293147697" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="feat - add mybatis generator plugins&#10;feat - mybatis generator test success&#10;feat - remove some default and declared classes">
       <option name="closed" value="true" />
