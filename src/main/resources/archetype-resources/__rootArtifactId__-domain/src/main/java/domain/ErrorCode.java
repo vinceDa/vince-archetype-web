@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.dto.data;
+package ${package}.domain;
 
 /**
  * 根据阿里巴巴的错误码规范定义的枚举类，控制整个项目的异常输出
