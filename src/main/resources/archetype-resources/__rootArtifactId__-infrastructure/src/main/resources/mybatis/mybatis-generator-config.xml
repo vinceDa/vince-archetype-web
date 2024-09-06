@@ -12,6 +12,8 @@
     `MyBatis3` 表示生成符合 MyBatis 3.x 的代码。
     -->
     <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!-- 查询单条数据插件 -->
+        <plugin type="com.itfsw.mybatis.generator.plugins.SelectOneByExamplePlugin"/>
         <!-- Example 目标包修改插件 -->
         <plugin type="com.itfsw.mybatis.generator.plugins.ExampleTargetPlugin">
             <!-- 修改Example类生成到目标包下 -->
@@ -91,7 +93,11 @@
                 enableUpdateByExample="false">
             <!-- 配置特定列的 Java 类型。 `column` 指定数据库表中的列名。 `javaType` 指定该列对应的 Java 类型。 -->
             <columnOverride column="id" javaType="java.lang.Long" />
-            <!-- 如果需要，可以添加更多的列覆盖配置。 -->
+            <columnOverride column="account_status" javaType="java.lang.Integer" />
+            <columnOverride column="is_online" property="online" javaType="java.lang.Boolean" />
+            <columnOverride column="last_login_time" javaType="java.time.LocalDateTime" />
+            <columnOverride column="gmt_create" javaType="java.time.LocalDateTime" />
+            <columnOverride column="gmt_modified" javaType="java.time.LocalDateTime" />
 
         </table>
     </context>

@@ -20,18 +20,21 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionConfig {
 
     @ExceptionHandler(BizException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
     public Response handleBizException(BizException e) {
         log.warn("biz exception: {}", e.getMessage());
         return Response.buildFailure(e.getErrCode(), e.getMessage());
     }
 
     @ExceptionHandler(SysException.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public Response handleSysException(SysException e) {
         log.error("sys exception: {}", e.getMessage(), e);
         return Response.buildFailure(ErrorCode.SYSTEM_ERROR.getCode(), e.getMessage());
     }
 
     @ExceptionHandler(Exception.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public Response handleException(Exception e) {
         log.error("unknown exception: ", e);
         return Response.buildFailure(ErrorCode.SYSTEM_ERROR.getCode(), "系统繁忙，请稍后再试");
