@@ -1,3 +1,5 @@
+package ${package}.types;
+
 import com.alibaba.cola.exception.BizException;
 import ${package}.ErrorCode;
 
