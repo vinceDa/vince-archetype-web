@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.snowflake;
+package ${package}.config.snowflake;
 
 /**
  * SnowflakeIdGenerator - 基于 twitter 的雪花算法生成唯一 id 的公共类

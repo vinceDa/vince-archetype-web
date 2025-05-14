@@ -41,13 +41,6 @@ public class AuthInterceptor implements HandlerInterceptor {
         // 取出jwt_token
         jwtToken = jwtToken.substring("Bearer ".length() - 1).trim();
 
-        try {
-            TokenUtil.getSubjectFromToken(jwtToken);
-        } catch (Exception e) {
-            logger.warn("auth failed: {}", e.getMessage());
-            throw new BizException("auth failed: " + e.getMessage());
-        }
-
-        return true;
+        return TokenUtil.validateToken(jwtToken);
     }
 }

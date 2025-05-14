@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.mybatis;
+package ${package}.config.mybatis;
 
 import ${package}.config.snowflake.SnowflakeIdGenerator;
 import org.apache.ibatis.executor.Executor;

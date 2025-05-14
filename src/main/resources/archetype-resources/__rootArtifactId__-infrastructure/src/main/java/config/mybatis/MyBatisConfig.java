@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.mybatis;
+package ${package}.config.mybatis;
 
-import ${package}.snowflake.SnowflakeIdGenerator;
+import ${package}.config.snowflake.SnowflakeIdGenerator;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
